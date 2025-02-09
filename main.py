@@ -94,10 +94,10 @@ async def weather(ctx, *, city: str = None):
     feels_like = data['current']['feelslike_c']
     
     # Final version of weather
-    weather_info = f"Погода в {location}, {region}, {country}:\n" \
+    weather_info = f"Weather in {location}, {region}, {country}:\n" \
     f"Temp: {temp_c}°C\n" \
     f"Condition: {condition}\n" \
-    f"Wind: {wind_speed} км/ч\n" \
+    f"Wind: {wind_speed} km/h\n" \
     f"Humidity: {humidity}%\n" \
     f"Feels like: {feels_like}°C"
     

@@ -14,7 +14,7 @@ This bot for Discord executes various commands including weather, random numbers
 - **API-requests**:
   - `!joke` – get random joke.
   - `!quote` – get random quote.
-  - `!weather {город}` – show current weather in specific place.
+  - `!weather {place}` – show current weather in specific place.
 
 ## 🚀 Setup and startup
 
